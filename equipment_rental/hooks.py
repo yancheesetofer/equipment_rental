@@ -126,4 +126,16 @@ app_license = "MIT"
 # override_doctype_dashboards = {
 # 	"Task": "equipment_rental.task.get_dashboard_data"
 # }
-
+fixtures = [
+    {
+        "dt" : "Custom Field",
+        "filters": [
+            [
+                "name", "in",
+                [
+                    "Asset-create_equipment_for_rent_entry",
+                ]
+            ]
+        ]
+    }
+]
