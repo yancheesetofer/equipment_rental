@@ -87,6 +87,12 @@ app_license = "MIT"
 #	}
 # }
 
+doc_events = {
+    "Asset" : {
+        "on_submit":"equipment_rental.equipment_rental.automatic_actions.create_equipment_for_rent_item"
+    }
+}
+
 # Scheduled Tasks
 # ---------------
 

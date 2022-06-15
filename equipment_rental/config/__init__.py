@@ -1,0 +1,1 @@
+#to install frappe locally : pip install -e ./frappe
